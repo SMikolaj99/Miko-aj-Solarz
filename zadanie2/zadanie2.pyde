@@ -23,4 +23,8 @@ def draw():
 # wiem, że ponieważ polecenie if x > 575 przypisuje x podane wartości tylko wtedy
 # kiedy spełnia warunek, koło nie może zmienić kierunku na stałe, jednak nie wiem
 # jak temu zaradzić
+
+# dodać drugi warunek na y oba razem już będą się różniły
+# w tym zadaniu ważna byłą zmiana kolorów i powtórzenie kolekcji
+# 0,5pkt w obecnym stanie
         
