@@ -23,12 +23,4 @@ def draw():
 def mousePressed():
     exit()
     
-# wiem, że ponieważ polecenie if x > 575 przypisuje x podane wartości tylko wtedy
-# kiedy spełnia warunek, koło nie może zmienić kierunku na stałe, jednak nie wiem
-# jak temu zaradzić
-
-# dodać drugi warunek na y oba razem już będą się różniły
-# w tym zadaniu ważna byłą zmiana kolorów i powtórzenie kolekcji
-# 0,5pkt w obecnym stanie
-        
-#zmieniłem warunki x i y, teraz obiekt porusza się prawidłowo, dodałem zmianę kolorów
+# 1,25pkt, brakje kolekcji, co bardzo zmniejsza możliwości w zakresie zmiany kolorów, ale już jest ok, możesz przejść dalej
