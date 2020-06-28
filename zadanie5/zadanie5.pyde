@@ -32,7 +32,7 @@ class player(object):
 def setup():
     size(cWidth,cHeight)
     global p
-    p = player()
+    p = player() # miały być dwa obiekty
     
 def draw():
     background(150,100,150)
@@ -58,3 +58,5 @@ def keyReleased():
         p.left=0
     if keyCode == RIGHT:
         p.right=0
+        
+#1,75pkt, chociaż nie wiem, który już raz widzę to samo zadanie...
