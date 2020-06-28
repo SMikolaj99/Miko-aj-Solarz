@@ -19,7 +19,7 @@ def draw():
     s.endShape(CLOSE)
     shape(s, 40, -65)
     
-    if (mousePressed == True):
+    if (mousePressed == True): # miałobyć na najechanie, nie kliknięcie
         text("M", width/2-50, height/2)
         fill(100, 20, 70)
         
@@ -34,10 +34,8 @@ def draw():
             text("S", width/2+50, height/2)
             fill(150, 50, 150)
             text("M", width/2-50, height/2)
-
-    if keyPressed:
-        fill(255)
         if key == 's' or key == 'S':
+            fill(255)
             text("S", width/2+50, height/2)
 
-        
+#1,75pkt
