@@ -1,0 +1,5 @@
+Serwis komputerowy
+Klient: Chciałbym zostawić swój komputer do naprawy. Uruchamia się ale ekran jest czarny i nie podświetlają się żadne przyciski.
+Pracownik: Rozumiem. Możliwe, że jedna z kości RAM jest uszkodzona, co nie jest dużym problemem. Gorzej będzie, jeżeli okaże się, że chodzi o płytę główną lub procesor. Sprawdzimy różne podzespoły i zobaczymy z czym jest problem. Najprawdopodobniej tzeba będzie wymienić jedną z części.
+WZORZEC: fasada
+DLACZEGO: klient nie zna przyczyny usterki,prosi o naprawę komputera, pracownik jest specjalistą, zna więc potencjalne przyczyny problemu, oraz wie, że może się to wiązać z potrzebą wymiany komponentów.
