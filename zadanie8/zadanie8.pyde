@@ -33,24 +33,6 @@ class Customer():
         else:
             self.book = ""
             return False
-        
-class MikolajS():
-    book = "" 
-    haveBook = False
-    def requestBook(self, book): 
-        print("Book You want to borrow is choosen.")
-        self.book = book
-        self.haveBook = True
-        return self.book
-    def returnBook(self): 
-        print("Book which you returning is {}".format(self.book))
-        if self.haveBook:
-            self.haveBook = False
-            return self.book
-        else:
-            self.book = ""
-            return False
-
 
 def setup():
     size(220,100)
@@ -58,7 +40,7 @@ def setup():
     books = ["Naocznosc", "Sens Sztuki", "Harry Potter", "Hobbit"]
     library = Library(books) 
     Madzia = Customer()
-    Mikolaj = MikolajS()
+    Mikolaj = Customer() # klasy są po to, by w szybko i prosty sposób twozyć obiekty o podobnej/takiej samej funkcjonalności
     
 def draw():
     library.displayAvailableBooks()
@@ -72,13 +54,9 @@ def draw():
 def mouseClicked(): 
     if mouseX >100 and mouseX<200:
         if mouseY >10 and mouseY <30:
-            library.lendBook(Madzia.requestBook("Naocznosc")) 
-        if mouseY >40 and mouseY <60:
-            library.addBook(Madzia.returnBook())
-            
-def mouseClicked():
-    if mouseX >100 and mouseX<200:
-        if mouseY >10 and mouseY <30:
+            library.lendBook(Madzia.requestBook("Naocznosc"))
             library.lendBook(Mikolaj.requestBook("Hobbit")) 
         if mouseY >40 and mouseY <60:
-            library.addBook(Mikolaj.returnBook())
+            library.addBook(Madzia.returnBook())
+            library.addBook(Mikolaj.returnBook()) # powielanie warunkó to zła praktyka
+# 0,25/0,5pkt za tę część
