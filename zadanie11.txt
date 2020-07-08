@@ -3,3 +3,5 @@ Klient: Chciałbym zostawić swój komputer do naprawy. Uruchamia się ale ekran
 Pracownik: Rozumiem. Możliwe, że jedna z kości RAM jest uszkodzona, co nie jest dużym problemem. Gorzej będzie, jeżeli okaże się, że chodzi o płytę główną lub procesor. Sprawdzimy różne podzespoły i zobaczymy z czym jest problem. Najprawdopodobniej tzeba będzie wymienić jedną z części.
 WZORZEC: fasada
 DLACZEGO: klient nie zna przyczyny usterki,prosi o naprawę komputera, pracownik jest specjalistą, zna więc potencjalne przyczyny problemu, oraz wie, że może się to wiązać z potrzebą wymiany komponentów.
+Klient nie musi wiedzieć, że to się przełoży na wymianę komponentó. Wogóle nie musi słyszeć, co będzie robił pracownik. Pracownik ma zrobić za niego.
+1pkt
