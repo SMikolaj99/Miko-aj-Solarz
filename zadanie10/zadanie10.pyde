@@ -59,11 +59,6 @@ def mouseClicked():
 
 class ZadanieDziesiate(unittest.TestCase):
 
-    def test_wypozyczenia(self):
-        Mikolaj = Customer()
-        books = ["Naocznosc", "Sens Sztuki", "Harry Potter"]
-        library = Library(books)
-
     def test_wypozyczenia_2(self):
         Mikolaj = Customer()
         books = ["Naocznosc", "Sens Sztuki", "Harry Potter"]
@@ -81,3 +76,5 @@ class ZadanieDziesiate(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+    
+# 2pkt
