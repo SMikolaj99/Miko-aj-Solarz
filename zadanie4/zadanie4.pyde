@@ -16,3 +16,5 @@ def draw():
         i = loadImage("okulary.png")
         image(i, width/2, 135, 140, 70)
         endRecord()
+        
+#1,5pkt
